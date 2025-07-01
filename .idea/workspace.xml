@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f2cf2b9-e78a-410c-b426-3ef2e5a958a3" name="Changes" comment="Extracting xlsx files to use in our program">
-      <change afterPath="$PROJECT_DIR$/PDFs/002 10001-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDFs/002 10002-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PDFs/002 10003-2023.1.18.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_files/cats.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_files/dogs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_files/foxes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practice_files/snakes.txt" afterDir="false" />
+    <list default="true" id="4f2cf2b9-e78a-410c-b426-3ef2e5a958a3" name="Changes" comment="Added the date feature">
       <change afterPath="$PROJECT_DIR$/output.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/002 10001-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/002 10001-2023.1.18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/002 10002-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/002 10002-2023.1.18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDFs/002 10003-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/002 10003-2023.1.18.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751106191595</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added the date feature">
+      <option name="closed" value="true" />
+      <created>1751201695433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751201695433</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +141,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Extracting xlsx files to use in our program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extracting xlsx files to use in our program" />
+    <MESSAGE value="Added the date feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the date feature" />
   </component>
 </project>
