@@ -3,6 +3,8 @@ import glob
 from fpdf import FPDF
 from pathlib import Path
 from datetime import date
+from itertools import islice
+
 filepaths = glob.glob("Invoices/*.xlsx" )
 
 for filepath in filepaths:
@@ -39,5 +41,19 @@ for filepath in filepaths:
         pdf.cell(w=30, h=8, txt=str(row["price_per_unit"]), border=1)
         pdf.cell(w=30, h=8, txt=str(row["total_price"]), border=1, ln=1)
 
+    price = df["total_price"].sum()
+    pdf.set_font(family="Times", size=10)
+    pdf.set_text_color(80, 80, 80)
+    pdf.cell(w=30, h=8, txt="", border=1)
+    pdf.cell(w=50, h=8, txt="", border=1)
+    pdf.cell(w=50, h=8, txt="", border=1)
+    pdf.cell(w=30, h=8, txt="", border=1)
+    pdf.cell(w=30, h=8, txt=str(price) , border=1, ln=1)
+
+
+
+
+    pdf.set_font(family="Times", size= 8, style="B")
+    pdf.cell( w = 50 , h= 8, txt=f"Total price= {price} ",ln =1)
 
     pdf.output(f"PDFs/{filename}.pdf")
